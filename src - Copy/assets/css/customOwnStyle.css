@@ -1,0 +1,86 @@
+.profile-icon {
+    height: 40px;
+    width: 40px;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+	color: white;
+    align-items: center;
+}
+.profile-icon:hover {
+    background-color: rgb(111, 191, 23);
+    border: 1px solid rgb(111, 191, 23);
+   cursor: pointer;
+   transition: 0.5s ease;
+}
+.profile-icon i {
+    font-size: 20px;
+    color: white;
+    padding-top: 1px;
+}
+
+.listar-navigation > ul > li{
+	width: auto;
+	padding: 7px 7px;
+	vertical-align: top;
+	display: inline-block;
+}
+.listar-navigation ul li a{
+	color: #222;
+	display: block;
+}
+.listar-homeslider .item figure img{
+    width: 100%;
+    height: 100%;
+    max-width: none;
+}
+@media screen and (min-width:1024px) {
+    .listar-homeslider .item figure{
+        height: 100vh !important;
+    }
+    .listar-homebanner{
+        top: 50px;
+    }
+  
+}
+
+@media screen and (max-width:1023px) {
+    .listar-homeslider .item figure img{
+        width: auto !important;
+        height: 820px;
+        max-width: none;
+    }
+
+    
+  
+}
+@media screen and (max-width:768px) {
+    .search-sec {
+        margin-bottom: 10px;
+    }
+}
+ 
+
+/* ============ LoginRegister css ============ */
+
+.back-home_btn {
+    top: 25px;
+    opacity: 1;
+    z-index: 3;
+    right: 25px;
+    color: #fff;
+    outline: 0;
+    width: 40px;
+    height: 40px;
+    display: block;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 40px;
+    background: #1e1e1e;
+    position: absolute;
+    text-align: center;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    font-family: 'Saira', Arial, Helvetica, sans-serif;
+}
