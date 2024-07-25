@@ -1,0 +1,27 @@
+.listar-home .listar-header.cd-auto-hide-header{
+	background: transparent;
+	-webkit-box-shadow: none;
+			box-shadow: none;
+}
+.listar-header.cd-auto-hide-header {
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 999;
+	position: fixed;
+	background-color: #ffffff;
+	/* Force Hardware Acceleration */
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+	will-change: transform;
+	-webkit-transition: -webkit-transform .5s;
+	transition: -webkit-transform .5s;
+	-o-transition: transform .5s;
+	transition: transform .5s;
+	transition: transform .5s, -webkit-transform .5s;
+}
+.listar-header.cd-auto-hide-header.is-hidden {
+	-webkit-transform: translateY(-100%);
+	-ms-transform: translateY(-100%);
+	transform: translateY(-100%);
+}
